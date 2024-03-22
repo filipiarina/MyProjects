@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prjdb.controllers.AdminController">
+    <children>
+        <TabPane layoutY="36.0" prefHeight="364.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Utilizatori">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="users" prefHeight="316.0" prefWidth="600.0">
+                                </ListView>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+
+                <Tab text="Cursuri">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="cursuri" prefHeight="316.0" prefWidth="600.0">
+                                </ListView>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+      <Button fx:id="bye" layoutX="482.0" layoutY="5.0" mnemonicParsing="false" onAction="#handleBye" prefHeight="31.0" prefWidth="97.0" text="Deautentificare" />
+    </children>
+</AnchorPane>

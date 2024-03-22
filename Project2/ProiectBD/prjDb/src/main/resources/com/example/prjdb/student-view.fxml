@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prjdb.controllers.StudentController">
+    <children>
+        <TabPane fx:id="studentpane" layoutY="30.0" prefHeight="332.0" prefWidth="601.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab fx:id="tabactivitati" text="Activitati">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="327.0" prefWidth="611.0">
+                            <children>
+                                <ToolBar layoutX="233.0" layoutY="236.0" prefHeight="77.0" prefWidth="130.0">
+                                    <items>
+                                        <Button fx:id="inscriereactivitate" mnemonicParsing="false" prefHeight="33.0" prefWidth="112.0" text="Inscriere activitate" />
+                                    </items>
+                                </ToolBar>
+                                <ListView fx:id="tabelactivitate" prefHeight="253.0" prefWidth="600.0">
+                                </ListView>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="tabgrupuri" text="Grupuri">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView fx:id="tabelgrupuri" prefHeight="274.0" prefWidth="600.0">
+                                </ListView>
+                                <ToolBar layoutX="93.0" layoutY="274.0" prefHeight="40.0" prefWidth="399.0">
+                                    <items>
+                                        <Button fx:id="inscriereGrup" mnemonicParsing="false" text="Inscriere grup" />
+                                        <Button fx:id="creareGrup" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Creare grup" />
+                                        <Button fx:id="parasireGrup" mnemonicParsing="false" text="Parasire grup" />
+                                        <Button fx:id="afisareAGrup" mnemonicParsing="false" text="Afisare activitati" />
+                                    </items>
+                                </ToolBar>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="tabnote" text="Note">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="314.0" prefWidth="602.0">
+                            <children>
+                                <ListView fx:id="tabelnote" prefHeight="315.0" prefWidth="600.0">
+                                </ListView>
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+      <Button fx:id="bye" layoutX="476.0" layoutY="2.0" mnemonicParsing="false" onAction="#handleBye" prefHeight="25.0" prefWidth="124.0" text="Deautentificare" />
+    </children>
+</AnchorPane>
