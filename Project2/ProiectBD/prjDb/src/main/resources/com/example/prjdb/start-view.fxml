@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="138.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prjdb.controllers.StartController">
+   <children>
+      <BorderPane prefHeight="318.0" prefWidth="456.0">
+         <center>
+            <Label prefHeight="54.0" prefWidth="131.0" text="UTCN" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Footlight MT Light" size="50.0" />
+               </font></Label>
+         </center>
+         <bottom>
+            <ToolBar prefHeight="78.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <items>
+                  <Button fx:id="prof" mnemonicParsing="false" onAction="#handleButton" prefHeight="26.0" prefWidth="134.0" text="Profesor" />
+                  <Button fx:id="stud" mnemonicParsing="false" onAction="#handleButton" prefHeight="26.0" prefWidth="142.0" text="Student" />
+                  <Button fx:id="admin" mnemonicParsing="false" onAction="#handleButton" prefHeight="26.0" prefWidth="153.0" text="Admin" />
+               </items>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
