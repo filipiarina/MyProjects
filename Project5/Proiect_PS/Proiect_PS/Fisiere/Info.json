@@ -1,0 +1,73 @@
+{
+	"locatiedeseu":[
+		{
+			"idLocatieAngajat": 1,
+			"idLocatie": "2",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 2,
+			"idLocatie": "3",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 3,
+			"idLocatie": "3",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 4,
+			"idLocatie": "4",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 5,
+			"idLocatie": "4",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 6,
+			"idLocatie": "3",
+			"idAngajat": 2,
+					{
+			"idLocatieAngajat": 7,
+			"idLocatie": "4",
+			"idAngajat": 2,
+					{
+			"idLocatieAngajat": 8,
+			"idLocatie": "6",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 9,
+			"idLocatie": "13",
+			"idAngajat": 4,
+					{
+			"idLocatieAngajat": 10,
+			"idLocatie": "1",
+			"idAngajat": 2,
+					{
+			"idLocatieAngajat": 11,
+			"idLocatie": "4",
+			"idAngajat": 4,
+					{
+			"idLocatieAngajat": 12,
+			"idLocatie": "6",
+			"idAngajat": 6,
+					{
+			"idLocatieAngajat": 13,
+			"idLocatie": "3",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 14,
+			"idLocatie": "9",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 15,
+			"idLocatie": "10",
+			"idAngajat": 3,
+					{
+			"idLocatieAngajat": 18,
+			"idLocatie": "19",
+			"idAngajat": 4,
+					{
+			"idLocatieAngajat": 19,
+			"idLocatie": "13",
+			"idAngajat": 3,
+	
+	]
+}
